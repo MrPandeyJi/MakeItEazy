@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeItEazy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+       
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="/images/mie logo.png" type="image/x-icon">
+</head>
+<style>
+    body {
+        background-image: url(/images/back.jpg);
+        background-size: cover;
+        max-width: 100%;
+        height: auto ;
+    }
+    #main-list
+    {
+        margin-left: 25px;
+    }
+    p
+    {
+        padding: 10px 20px;
+        margin-top: 2.5rem;
+        margin-bottom: 25px;
+    }
+    .navbar-nav
+    {
+        font-size: large;
+        font-weight: bold;
+    }
+    .navbar-nav li .dropdown-menu
+    {
+        margin-top: 5px;
+        padding: 10px;
+        position: relative;
+        left: 10px;
+    }
+    .nav .open>a:hover,.nav .open>a:focus {
+    background-color: rgb(13, 87, 223);
+    border-color: #337ab7;
+    }
+   
+   .dropdown
+   {
+       margin-left: 0px;
+   }
+</style>
+
+<body>
+    <div class="wrapper">
+       <!--top menu bar-->
+            <nav class="navbar navbar-expand-md  navbar-light sticky-top navbar-style">
+                <div class="container-fluid">
+                    <!--logo-->
+                    <div class="navbar-header ">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                            <span class="icon-bar "></span>
+                            <span class="icon-bar "></span>
+                            <span class="icon-bar "></span>
+                        </button>
+                        <a href="/index.html"> <img class="logo" src="/images/mie logo.png" alt="logo"></a>
+                    </div>
+                    <!-- menu items-->
+                    <div class="collapse navbar-collapse" id="micon">
+                        <ul class="nav navbar-nav ml-auto navbar-right">
+                            <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contact.php">Contact</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="">Subjects
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./pages/de.html">DE</a></li>
+                                    <li><a href="./pages/ds.html">DS</a></li>
+                                    <li><a href="./pages/pom.html">POM</a></li>
+                                    <li><a href="./pages/Dbms.html">DBMS</a></li>
+                                    <li><a href="./pages/math.html">MATHS</a></li>
+                                </ul>
+                            </li>
+            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+     
+       
+        
+        <section>
+            <h1>Welcome!</h1>
+            <p>Get rid of all the chaos and enjoy Notes and video lectures of BCA Second Semester here.</p> 
+            <div class="list-item">
+            <ul id="main-list">
+                <li><a href="http://msi-ggsip.org/wp-content/uploads/2014/06/BCA-Syllabus.pdf" target="blank">Syllabus
+                    </a></li>
+                <li><a href="pages/ds.html" target="_blank">Data Structures</a></li>
+                <li><a href="pages/de.html" target="_blank">Digital Electronics</a></li>
+                <li><a href="/pages/pom.html" target="_blank">Principles of Management</a></li>
+                <li><a href="/pages/math.html" target="_blank">Maths</a></li>
+                <li><a href="/pages/Dbms.html" target="_blank">DBMS</a></li>
+
+            </ul>
+            </div>
+
+        </section>
+       
+    <footer class="page-footer">
+
+        <div style="text-align: center;" class="container-fluid">
+            <a href="./index.html" class="footer_link">Home</a>
+        
+            <a href="#" class="footer_link">  About</a>
+            <a href="#" class="footer_link">  Privacy Policy</a>
+            <a href="./contact.php" class="footer_link">  Contact Us</a>
+        </div>
+    <div class="footer-copyright text-center ">© 2020 Copyright:
+      <a href="#"> MakeItEazy</a>
+    </div>
+  
+     </footer>
+  
+        
+    </div>
+</body>
+
+</html>

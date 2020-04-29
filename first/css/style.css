@@ -1,0 +1,216 @@
+*, html,body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.wrapper
+{
+    box-sizing: border-box;
+    border: 3px solid rgb(143, 199, 224);
+   
+}
+section
+{
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.navbar-style
+{
+    box-shadow: 0 2px 4px #efefef;
+    text-transform: uppercase;
+}
+.logo
+{
+    height: 120px;
+    padding: 2px 10px;
+}
+@media(max-width: 576px)
+{
+    .logo
+    {
+    height: 69px;
+    padding: 2px 10px;
+    }
+}
+.navbar-header a:hover
+{
+    background-color: rgba(126, 197, 219, 0.74);
+}
+.nav>li>a:hover
+{
+    background-color:rgba(223, 27, 13, 0.904);
+    color: rgb(133, 192, 219);
+}
+.icon-bar
+{
+    background-color: rgba(117, 67, 20, 0.918);
+}
+.navbar-nav
+{
+    margin: 45px;
+    position: relative;
+    right: 25px;
+}
+.dropdown-menu li a:hover
+   {
+       background-color: rgb(79, 224, 139);
+      color: rgb(238, 158, 11);
+   }
+h1
+{
+    background-color: black;
+    color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    width:  50%;
+    padding: 10px;
+    border: 3px solid grey;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+@media(max-width: 576px)
+{
+    h1{
+        font-size: 1.25em;
+    }
+}
+
+p
+{   
+    background-color: rgba(0, 0, 0, 0.349);
+    color: rgb(246, 247, 248);
+    font-size: large;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.list-item, #main-list li
+{
+    padding-left: 2.0rem;
+    font-weight: bold;
+    font-size: larger;
+    list-style-image: url(/images/bullet.svg);
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    
+}
+
+a:link, a:visited 
+{
+    color: rgb(250, 252, 252);
+    padding: 14px 25px;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.list-item a:hover, a:active {
+    background-color: crimson;
+    color: khaki;
+}
+footer
+{
+    background-color: rgba(45, 130, 145, 0.171);
+    color: aliceblue;
+    padding: 1px;
+    
+}
+.page-footer a:hover{
+    color: gray;
+}
+#pom
+{
+    font-size: large;
+    font-style: italic;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(0,0,0,0.2);
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.mvid 
+{
+   margin: 15px;
+   
+}
+.ivid
+{
+    margin: 10px;
+    width: 360px;
+    height: 280px;
+}
+@media(max-width: 576px)
+{
+    iframe
+    {
+        width: 330px;
+        height: 280px;
+    }
+}
+form, .form-control
+{
+    transition: all 1s ease-in-out;
+    background: transparent;
+    
+}
+.card
+{
+    font-family: cursive;
+    text-transform: uppercase;
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+
+form, .btn
+{
+    font-size: 18px;
+    font-weight: bold;
+    
+
+}
+
+.dropbtn, .dropbtn2
+{
+    
+    border-radius: 2px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.20s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.25);
+    
+    background: 
+    linear-gradient(to right, #17828a 50% #16777e 50%);
+    background-size: 200% 100%;
+    background-position: right bottom ;
+    background-color: maroon;
+    color: whitesmoke;
+}
+.dropdown {
+    margin-left: 2rem;
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a
+{
+    color: midnightblue;
+    padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(204, 22, 22)};
